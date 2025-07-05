@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whereness AI Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Building Sketch Transformation</h1>
+        <p>AI-Powered Image Generation</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card">
+                <h2>Input Sketch</h2>
+                <img src="assets/sketch.png" alt="Hand-drawn building sketch" id="input-sketch">
+            </div>
+            <div class="card">
+                <h2>Generated Image</h2>
+                <div class="image-container">
+                    <img src="assets/placeholder.png" alt="Generated building image" id="output-image">
+                    <div class="loading-overlay" id="loading-overlay">
+                        <img src="assets/loading.gif" alt="Loading...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="generate-btn">Generate</button>
+        </div>
+    </main>
+    <footer>
+        <p>Gemini AI Prompt Engineer Challenge</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
