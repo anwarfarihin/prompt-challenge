@@ -11,6 +11,7 @@ def read_root():
 
 @app.get("/api/generate")
 async def generate_image():
+    # TODO: Implement the core logic for generating the image
     # In a real application, this would be the core logic:
     # 1. Get the input sketch (already on the frontend, but could be passed here)
     # 2. Use a prompt engineering strategy with a model like DALL-E 3 or Midjourney
